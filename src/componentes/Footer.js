@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 
 //Cuerpo del Componente
 
-const Header = (props) => {
+const Footer = (props) => {
     const {estiloTexto, estiloView}=styles;
     
     return ( 
@@ -18,7 +18,7 @@ const Header = (props) => {
 
 const styles = {
   estiloTexto: {
-      fontSize: 25,
+      fontSize: 10,
       color: 'black',
   } ,
   estiloView: {
@@ -27,9 +27,9 @@ const styles = {
     backgroundColor: '#4784EC',
     textAlingn: 'center',
     paddingTop: 1,
-    paddingBottom: 3,
+    paddingBottom: 1,
   },
   
 };
 //Exportar Componente
-export default Header;
+export default Footer;

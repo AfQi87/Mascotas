@@ -4,10 +4,10 @@ import {TouchableOpacity, View, Text} from 'react-native';
 
 //Cuerpo del Componente
 
-const Button = () => {
+const Button = (props) => {
     return ( 
-        <TouchableOpacity style={styles.estiloBoton}>
-            <Text style={styles.estiloTexto}>Detalles</Text>
+        <TouchableOpacity onPress={props.boton} style={styles.estiloBoton}>
+            <Text style={styles.estiloTexto}>Más Informacion de la Raza</Text>
         </TouchableOpacity>
      );   
 }
@@ -27,11 +27,11 @@ const styles = {
     estiloBoton:{
         
         alignSelf: 'stretch',
-        backgroundColor: '#BCE1EC',
+        backgroundColor: '#96B8F1',
         borderWidth: 2,
         paddingTop: 7,
-        marginLeft: 7,
-        marginRight: 7,
+        marginLeft: 100,
+        marginRight: 100,
         justifyContent: 'center',
         alignItems: 'center',
     },
