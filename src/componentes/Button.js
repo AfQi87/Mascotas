@@ -7,7 +7,7 @@ import {TouchableOpacity, View, Text} from 'react-native';
 const Button = (props) => {
     return ( 
         <TouchableOpacity onPress={props.boton} style={styles.estiloBoton}>
-            <Text style={styles.estiloTexto}>Más Informacion de la Raza</Text>
+            <Text style={styles.estiloTexto}>información de Raza</Text>
         </TouchableOpacity>
      );   
 }
@@ -17,23 +17,24 @@ const styles = {
     estiloTexto:{
         fontSize: 16,
         fontWeight: '400',
-        paddingTop: 7,
-        paddingBottom: 7,
+        paddingTop: 5,
+        paddingBottom: 5,
+        marginTop: 5,
         color: "black",
-        textAlingn: 'center',
-       
+        textAlign: 'center',
 
     },
     estiloBoton:{
-        
         alignSelf: 'stretch',
         backgroundColor: '#96B8F1',
-        borderWidth: 2,
-        paddingTop: 7,
-        marginLeft: 100,
-        marginRight: 100,
+        borderWidth: 0,
+        paddingTop: 5,
+        paddingBottom: 7,
+        marginLeft: 0,
+        marginRight: 280,
         justifyContent: 'center',
         alignItems: 'center',
+        borderRadius: 20,
     },
 
 }

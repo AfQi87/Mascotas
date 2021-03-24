@@ -30,8 +30,8 @@ const DetalleMascotas = (props) => {
             
             <ItemSeccion>
                 <Button boton={()=>
-                            { Linking.openURL(props.mascotas.informacion) }
-                        }/>
+                    { Linking.openURL(props.mascotas.informacion) }
+                }/>
             </ItemSeccion>
         </Item>
      );   
@@ -44,27 +44,19 @@ const styles = {
         
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#D2DFF5',
     },
     estilosImagen: {
         width:"100%",
         height: 300
+        
     },
     estiloTexto:{
         fontSize: 25,
         fontWeight: '200', 
         margin: 'auto',  
     },
-    estiloLado: {
-        fontSize: 25,
-        fontWeight: '200',  
-        marginTop: -35,
-        marginLeft: 210,
-    },
-    estiloRaza: {
-        fontSize: 15,
-        fontWeight: '200',  
-        
-    }
+    
 };
 
 //Exportar Componente

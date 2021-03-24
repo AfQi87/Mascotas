@@ -28,7 +28,7 @@ class ListaMascotas extends Component{
     };
     render (){
         console.log(this.state);
-        return <ScrollView>{this.listaMostrar()}</ScrollView> ;
+        return <ScrollView >{this.listaMostrar()}</ScrollView> ;
     }   
 }
 

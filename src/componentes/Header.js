@@ -25,7 +25,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#4784EC',
-    textAlingn: 'center',
+    textAlign: 'center',
     paddingTop: 1,
     paddingBottom: 3,
   },
