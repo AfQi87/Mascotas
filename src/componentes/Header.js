@@ -19,12 +19,12 @@ const Header = (props) => {
 const styles = {
   estiloTexto: {
       fontSize: 25,
-      color: 'black',
+      color: '#222B32',
   } ,
   estiloView: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4784EC',
+    backgroundColor: 'rgba(124,171,187,0.9)',
     textAlign: 'center',
     paddingTop: 1,
     paddingBottom: 3,

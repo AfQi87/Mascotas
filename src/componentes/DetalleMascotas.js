@@ -45,16 +45,19 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#D2DFF5',
+        borderRadius: 90,
     },
     estilosImagen: {
         width:"100%",
-        height: 300
+        height: 300,
+        borderRadius: 80,
         
     },
     estiloTexto:{
         fontSize: 25,
         fontWeight: '200', 
         margin: 'auto',  
+        color: '#415361',
     },
     
 };

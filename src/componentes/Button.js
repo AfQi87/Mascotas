@@ -26,7 +26,7 @@ const styles = {
     },
     estiloBoton:{
         alignSelf: 'stretch',
-        backgroundColor: '#96B8F1',
+        backgroundColor: '#3EB9A7',
         borderWidth: 0,
         paddingTop: 5,
         paddingBottom: 7,

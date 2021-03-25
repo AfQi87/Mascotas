@@ -16,8 +16,7 @@ const ItemSeccion = (props) => {
 //Estilos 
 const styles={
     estiloVista: {
-        borderBottomWidth: 1,
-        borderColor: 'black',
+        
         padding: 5,
         flexDireccion: 'row',
         justifyContent: 'flex-start',

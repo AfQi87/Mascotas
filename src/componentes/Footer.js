@@ -19,12 +19,12 @@ const Footer = (props) => {
 const styles = {
   estiloTexto: {
       fontSize: 10,
-      color: 'black',
+      color: '#222B32',
   } ,
   estiloView: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4784EC',
+    backgroundColor: 'rgba(124,171,187,0.9)',
     textAlingn: 'center',
     paddingTop: 1,
     paddingBottom: 1,

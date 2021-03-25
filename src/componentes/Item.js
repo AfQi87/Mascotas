@@ -15,8 +15,7 @@ const Item = (props) => {
 //Estilos 
 const styles={
     estiloVista: {
-        borderWidth: 1,
-        borderColor: 'white',
+        
         borderBottomWidth: 0,
         shadowColor: 'black',
         marginLeft: 5,
